@@ -1,0 +1,62 @@
+body{
+    background-size: cover;
+    font-family: 'Shizuru', cursive;
+}
+
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    color: black;
+    font-weight: 600;
+}
+
+
+.heading:hover{
+    color: black;
+    font-weight: 600;
+background-image: linear-gradient(to top left, rgb(255,179,186), rgb(255,255,186),	rgb(186,225,255));
+
+}
+#number_of_objects:hover{
+    color: black;
+    font-weight: 600;
+background-image: linear-gradient(to top left, rgb(255,179,186), rgb(255,255,186),	rgb(186,225,255));
+
+}
+
+#number_of_objects{
+    color: black;
+    font-weight: 600;
+}
+
+#start,#status{
+    box-shadow: 3px 3px 3px peachpuff;
+    background-color: antiquewhite;
+    color: rgb(255, 0, 51);
+}
+
+
+#status, #number_of_objects, #start{
+    font-size: 18px;
+}
+
+.copy_right_footer{
+    position: fixed;
+    color: rgb(255, 251, 0);
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(33, 168, 247);
+    line-height: 3;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow: 3px 3px 3px rgb(255, 0, 191);
+}
+
+canvas{
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 130px;
+    box-shadow: 5px 5px 5px white;
+}
